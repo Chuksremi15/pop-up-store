@@ -2,9 +2,26 @@
 
 # 🏗 SE2-pop-up-store
 
-Interface and contract to get started implementing a pop-up-store
+This is a pop-up-store extension of scaffoldeth
 
-This is an alternative method of installing Scaffold-ETH. Instead of directly [cloning SE-2](https://docs.scaffoldeth.io/quick-start/installation#option-1-setup-using-git-clone), you can use create-eth to create your own custom instance, where you can choose among several configurations and extensions.
+## Installation
+
+npx create-eth@latest -e chuksremi15/pop-up-store:main
+
+## Documentation for pop-up-store
+
+Moved the contract files from the `packages/hardhat/pop-up-store-contracts` directory to `packages/hardhat/contracts` directory
+
+for contract test file. Link to original directory when extension was created from
+
+To get a use monument extended font attached to the extension, add
+
+fontFamily: {
+heading: "MonumentExtended-Regular, sans-serif",
+body: "Poppins, sans-serif",
+}
+
+in the extend object inside theme object of your tailwind.config.js
 
 <h4 align="center">
   <a href="https://github.com/scaffold-eth/scaffold-eth-2">SE-2 Repo</a> |
