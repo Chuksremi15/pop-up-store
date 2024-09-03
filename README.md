@@ -10,16 +10,18 @@ npx create-eth@latest -e chuksremi15/pop-up-store:main
 
 ## Documentation for pop-up-store
 
-Moved the contract files from the `packages/hardhat/pop-up-store-contracts` directory to `packages/hardhat/contracts` directory
+Moved the contract files from the [packages/hardhat/pop-up-store-contracts] directory to [packages/hardhat/contracts] directory
 
 for contract test file. Link to original directory when extension was created from
 
 To get a use monument extended font attached to the extension, add
 
+```javascript
 fontFamily: {
 heading: "MonumentExtended-Regular, sans-serif",
 body: "Poppins, sans-serif",
 }
+```
 
 in the extend object inside theme object of your tailwind.config.js
 
