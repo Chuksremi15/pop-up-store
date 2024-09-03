@@ -8,13 +8,17 @@ This is a pop-up-store extension of scaffoldeth
 
 npx create-eth@latest -e chuksremi15/pop-up-store:main
 
-## Documentation for pop-up-store
+## About
+
+Pop-up-store extension used to collect payment for items/item. This approach can be applied for ticketing, niche item like art and lots more. The price verification of the item is done using a mapping of the item Id to the Item price in the contract. For a more complex use-case, setting up a Chainlink Node to collect price data off-chain is recommended. Eth price to verify if the correct value of eth is sent for an item is done using a chainlink price aggregator. The aggregator address shipped in the deploy script is for sepolia, be sure to check if you intend to ship to mainnet. The contract allows to add more payment token(stables). If you intend to add non-stables, writing a function similar to paywitheth in the contract will suffice.
+
+## Documentation
 
 Moved the contract files from the [packages/hardhat/pop-up-store-contracts] directory to [packages/hardhat/contracts] directory
 
 for contract test file. Link to original directory when extension was created from
 
-This extension is shipped with a really cool monument extended, to use add the code below to
+This extension is shipped with a really cool monument extended font, to use add the code below to
 the extend object inside theme object of your tailwind.config.js
 
 ```javascript
