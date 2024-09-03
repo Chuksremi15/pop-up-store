@@ -10,7 +10,7 @@ npx create-eth@latest -e chuksremi15/pop-up-store:main
 
 ## About
 
-Pop-up-store extension used to collect payment for items. This approach can be applied to ticketing, niche items like art, and more. The price verification of the item is done using a mapping of the item Id to the Item price in the contract. Setting up a Chainlink Node to collect price data off-chain is recommended for a more complex use case. Eth price is used to verify if the correct eth value is sent for an item using a chainlink price aggregator. The aggregator address shipped in the deploy script is for Sepolia, be sure to check if you intend to ship to Mainnet. The contract allows the addition of more payment tokens(stables). If you want to add non-stables, writing a function similar to paywitheth in the contract will suffice.
+Pop-up-store extension used to collect payment for items. This approach can be applied to ticketing, niche items like art, and more. The price verification of the item is done using a mapping of the item Id to the Item price in the contract. Setting up a Chainlink Node to collect price data off-chain is recommended for a more complex use case. Eth price is used to verify if the correct eth value is sent for an item using a chainlink price aggregator. The aggregator address shipped in the deploy script is for Sepolia, be sure to check if you intend to ship to Mainnet. The contract allows the addition of more payment tokens(stables). If you want to add non-stables, writing a function similar to paywitheth in the contract will suffice. [Preview the template here.](https://popupstore-ashy.vercel.app/)
 
 ## Documentation
 
